@@ -1,0 +1,461 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Syed Mohsin's Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Syed Mohsin's Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Syed Mohsin's Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/unnamed-fotor-2024092014837.png"
+      type="image/png"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css"  />
+    <script src="script.js" defer></script>
+
+    <!-- Your name here -->
+    <title>Syed Mohsin's Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button"  class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">Projects</a></li>
+          <li class="nav-item"><a href="#blog">My Certifications</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            <span>Hi, I'm Belarmino</span>
+            <span>Fullstack Developer</span>
+          </h1>
+
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            I am passionate about innovating and creating something from scratch.
+             Thanks to that one day I discovered the world of programming and software development.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">My Projects</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Lastest Projects</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">A hospital Project</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  site developed for a hospital.
+                </p>
+                <!-- Add technologies you used to build the project -->
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>PHP</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="https://github.com/BIARES07/The-Hospital-Project" target="_blank" rel="noopener" class="link"
+                    >See more of this project here</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+         <!-- Update img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/hospital_proyect.png"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Frontend Demo</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">a small page made as a sample.</p>
+                <ol class="work-technologies">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="https://github.com/BIARES07/Frontend-Demo" target="_blank" rel="noopener" class="link"
+                    >See more of this project here</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="http://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/frontend.png"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Discord Bot | Crypto Transaction Tracker</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Discord bot made to track transactions on the blockchain
+                </p>
+                <ol class="work-technologies">
+                  <li>Python</li>
+                  <li>Discord API</li>
+                  
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="https://github.com/BIARES07/Discord-Bot-Crypto-Transaction-Tracker" target="_blank" rel="noopener" class="link"
+                    >See more of this project here</a
+                  >
+
+                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/discord-screen.jpg"
+                  alt="contribute dev"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">My Certifications</h2>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h3">
+                    Complete Web Development with HTML5, CSS3, JavaScript, AJAX, PHP, and MySQL
+                  </h3>
+                  <p class="article-text">
+                    Certificate issued by the Udemy Inc,
+                     that certifies the completion of this course.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a href="https://ude.my/UC-3d6ee089-11a2-4473-a76c-675606b79245" class="link" target="_blank" rel="noopener"
+                    >you can check it here</a
+                  >
+                 
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/certificate-svgrepo-com.svg"
+                  alt="MacBook Pro"
+                  loading="lazy"
+                />
+              </picture>
+            
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">All My Skills</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/java.png" alt="java" class="skills-img" loading="lazy" title="Java">           
+                <img src="assets/images/skills/PHP.png" alt="PHP" class="skills-img" loading="lazy" title="PHP">
+                <img src="assets/images/skills/Python.png" alt="Python" class="skills-img" loading="lazy" title="Python">
+                <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+                <img src="assets/images/skills/node-js.webp" alt="Node.js" class="skills-img" loading="lazy" title="Node.js">
+                <img src="assets/images/skills/HTML5.png" alt="HTML" class="skills-img" loading="lazy" title="HTML">
+                <img src="assets/images/skills/CSS.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                 
+                 
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+      <section>
+        <h2 class="h2">Reviews</h2>
+        <div class="container">
+          <ol class="testimonials">
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                really Nice and appricated gye ..Nice Developer and great cummunicated and highy recommended this gye :p
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/blank-profile-picture-973460_640.png"
+                  alt="Rich Harris"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">kimDm</h3>
+                  <p class="testimonial-author-job">From <a href="https://www.sythe.org/threads/biares-vouches/#post-77541497" target="_blank" rel="noopener">Sythe.org</a></p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Wellcome on Sythe Buddy ♥️ Huge Trusted I trust on it 1000$+ and I appreciate this Work Nice too Meet this Gye Ty For help
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/blank-profile-picture-973460_640.png"
+                  alt="Andrew Mead"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">
+                    venoxgold
+                  </h3>
+                  <p class="testimonial-author-job">
+                    From <a href="https://www.sythe.org/threads/biares-vouches/#post-77541787" target="_blank" rel="noopener">Sythe.org</a>
+                  </p>
+                </figcaption>
+              </figure>
+            </li>
+            
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Contact Me</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                I am a Full-Stack Developer with experience in a wide range of technologies,
+                 including Java, Python, PHP, JavaScript, HTML, CSS, Node.js, SQL, and more.
+                  Currently, I am pursuing a degree in Systems Engineering, 
+                  which keeps me up-to-date with the latest trends and technologies in the field.
+              </p>
+              <p class="contact-text">
+                If you are looking for a dedicated and passionate developer, 
+                feel free to reach out! I'm here to help you transform your ideas into reality.
+              </p>
+              <!-- Replace src with your signatures and name -->
+              
+              
+            </div>
+            <form action="https://formspree.io/f/xdknvryg" class="contact-form" method="POST">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">What do you need??</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/BIARES07/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/belarmino-pe%C3%B1a-b34330295/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+           
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Official Portfolio site for <a target="_blank" rel="noopener" href="https://github.com/BIARES07/">Belarmino.</a>
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
